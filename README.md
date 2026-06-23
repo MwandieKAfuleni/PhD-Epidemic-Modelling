@@ -1,6 +1,6 @@
 # PhD-Epidemic-Modelling  
 
-#Scripts for Analyses
+## **Scripts for Analyses
 
 This repository contains reproducible code used for:
 
