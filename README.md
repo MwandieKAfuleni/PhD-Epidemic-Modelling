@@ -1,25 +1,26 @@
 # PhD-Epidemic-Modelling
-Scripts for Analyses
+## **Scripts for Analyses **## 
 
 This repository contains reproducible code used for:
 
-Chapter 4: Spatiotemporal relative risk estimation
-Chapter 5: SEIR transmission modelling
+**Chapter 4:** Spatiotemporal relative risk estimation  
+**Chapter 5:** SEIR transmission modelling
 
 These scripts are designed to be adaptable to COVID-19 data and other infectious disease datasets.
 
-Contents
+## **Contents **##
 
 The code provided here focuses on:
 
-Model implementation
+Model implementation  
 Main figures and results presented in the thesis
 
 It does not include scripts for:
 
-Minor or exploratory plots
+Minor plots    
 Supplementary figures and analyses
-Related Work
+
+## **Related Work**##
 
 The code for Chapter 3 (epidemiological and phylogenetic analyses) is hosted in a separate repository:
 https://github.com/MwandieKambaAfuleni/Covid19-Malawi
