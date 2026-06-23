@@ -1,5 +1,6 @@
-# PhD-Epidemic-Modelling
-## **Scripts for Analyses **## 
+# PhD-Epidemic-Modelling  
+
+#Scripts for Analyses
 
 This repository contains reproducible code used for:
 
@@ -10,7 +11,7 @@ These scripts are designed to be adaptable to COVID-19 data and other infectious
 
 ## **Contents **##
 
-The code provided here focuses on:
+The codes provided here focuses on:
 
 Model implementation  
 Main figures and results presented in the thesis
