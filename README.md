@@ -9,7 +9,7 @@ This repository contains reproducible code used for:
 
 These scripts are designed to be adaptable to COVID-19 data and other infectious disease datasets.
 
-## **Contents **##
+## **Contents 
 
 The codes provided here focuses on:
 
@@ -21,7 +21,7 @@ It does not include scripts for:
 Minor plots    
 Supplementary figures and analyses
 
-## **Related Work**##
+## **Related Work
 
-The code for Chapter 3 (epidemiological and phylogenetic analyses) is hosted in a separate repository:
+The codes for Chapter 3 (epidemiological and phylogenetic analyses) is hosted in a separate repository:
 https://github.com/MwandieKambaAfuleni/Covid19-Malawi
