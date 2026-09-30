@@ -56,7 +56,7 @@ stan_data_1 <- list(
 #==============================================
 # Compile and fit
 #==============================================
-model1 <- stan_model("model", "Model_1.stan")
+model1 <- stan_model("./model/Model_1.stan")
  
 seir_fit_1 <- sampling(model1,
                   data = stan_data_1,
