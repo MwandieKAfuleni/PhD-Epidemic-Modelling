@@ -61,25 +61,25 @@ stan_data_2 <- list(
 #==============================================
 # Compile and fit
 #==============================================
-model2 <- stan_model("model", "Model_2.stan")
+model2 <- stan_model("./model/Model_2A.stan")
 
 seir_fit_2 <- sampling(
   model2,
   data = stan_data_2,
   chains = 4,
   cores = 4,
-  iter = 4000,
-  warmup = 2000,
+  iter = 40,
+  warmup = 20,
   control = list(adapt_delta = 0.9999, max_treedepth = 20),
   seed = 123
 )
 
 
-# Save the results
-saveRDS(seir_fit_2, file = "FinalModel_2.rds")
+# # Save the results
+# saveRDS(seir_fit_2, file = "FinalModel_2.rds")
 
-# Load the results
-#seir_fit_2 <- readRDS("------------------/FinalModel_2.RDS")
+# # Load the results
+# seir_fit_2 <- readRDS("------------------/FinalModel_2.RDS")
 
 #==============================================
 # calculate \beta
